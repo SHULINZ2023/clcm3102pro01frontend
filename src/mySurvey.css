@@ -1,0 +1,14 @@
+.star-rating {
+    font-size: 24px;
+  }
+  
+  .star {
+    color: #ccc; /* Unselected star color */
+    cursor: pointer;
+  }
+  
+  .star.selected {
+    background-color: linear(0 50% 100%, red, white);
+    color: red; /* Selected star color */
+  }
+  
